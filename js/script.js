@@ -7,10 +7,10 @@ const adviceContent = document.querySelector(".advice-content");
 
 
 if(screen.width > 375) {
-    patternDivider.src = "../images/pattern-divider-desktop.svg";
+    patternDivider.src = "images/pattern-divider-desktop.svg";
 }
 else {
-    patternDivider.src = "../images/pattern-divider-mobile.svg"
+    patternDivider.src = "images/pattern-divider-mobile.svg"
 }
 
 async function getAdvice() {
