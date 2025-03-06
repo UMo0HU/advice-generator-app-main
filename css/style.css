@@ -90,12 +90,12 @@ button img {
 
 @media (max-width: 900px) {
     .card {
-        width: 60%;
+        width: 80%;
         padding: 10px 20px;
     }
 
     #pattern-divider {
-        width: 80%;
+        width:  80%;
     }
 }
 
@@ -104,9 +104,6 @@ button img {
         font-size: 24px;
     }
     
-    #pattern-divider {
-        width: min-content;
-    }
 }
 
 @media (max-width: 340px) {
